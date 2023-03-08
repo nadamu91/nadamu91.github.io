@@ -1,3 +1,4 @@
+window.onload=function(){
 function abrirLinkedin() {
     window.open("https://www.linkedin.com/feed/", "_blank");
   }
@@ -6,3 +7,4 @@ function abrirGithub() {
   }
 document.getElementById("miBoton").addEventListener("click", abrirLinkedin);
 document.getElementById("miBoton2").addEventListener("click", abrirGithub);
+}
