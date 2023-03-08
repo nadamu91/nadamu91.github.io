@@ -1,0 +1,161 @@
+/* Estilos generales de la página */
+  body {
+    background-color: #f5f5f5;
+  }
+  
+  .contenedor {
+    display: flex;
+    justify-content: space-between;
+    max-width: 860px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .columna-izquierda {
+    width: 39%;
+  }
+  
+  .columna-derecha {
+    width: 59%;
+  }
+  .nombre{
+    font-size: 170%;
+    color: #0077b5;
+    margin-bottom: 20%;
+    margin-top: 13%;
+    margin-left: 3%;
+  }
+  .nombre h2{
+    font-size: 17px;
+    color: #44444469;
+    margin-bottom: 20px;
+  }
+  /* Estilos para la columna izquierda */
+  .perfil {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .perfil img {
+    border-radius: 10%;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 5px;
+    margin-top: 10%;
+  }
+  
+  .perfil h1 {
+    font-size: 28px;
+    color: #0077b5;
+    margin-bottom: 10px;
+  }
+  
+  .perfil h2 {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .detalle {
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+  
+  .detalle h3 {
+    font-size: 20px;
+    color: #0077b5;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+  
+  .detalle ul {
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 10px;
+    padding-left: 0;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+  .detalle ul button{
+    width: 50%;
+    height: 50%;
+  }
+  .detalle ul img{
+    width: 15%;
+    height: 15%;
+  }
+
+  .detalle li {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para la columna derecha */
+  .seccion {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+  
+  .seccion h2 {
+    font-size: 20px;
+    color: #0077b5;
+    margin-bottom: 10px;
+  }
+  
+  .seccion ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .seccion li {
+    margin-bottom: 5px;
+  }
+  
+  /* Personalizamos la fuente de texto */
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Establecemos el color de fondo y de texto de la columna izquierda */
+  .columna-izquierda{
+    background-color: #fafafa;
+    color: #333;
+  }
+  
+  /* Establecemos el color de fondo y de texto de la columna derecha */
+  .columna-derecha {
+    background-color: #e1f5fe;
+    color: #333;
+  }
+  
+  /* Personalizamos la fuente de texto de los encabezados */
+  h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Personalizamos los colores de la página */
+  .contenedor {
+    border-top: 10px solid #0288d1;
+  }
+  
+  .detalle h3, .seccion h2 {
+    color: #0288d1;
+  }
+  
+  .perfil h1 {
+    color: #039be5;
+  }
+  
+  
+  
+  
+  
+  
